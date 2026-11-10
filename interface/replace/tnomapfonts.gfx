@@ -1,0 +1,30 @@
+bitmapfonts = {
+
+ 	bitmapfont = {
+		name = "tahoma_60"
+		path = "gfx/fonts/hoi_mapfont4"
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 203 35 }
+			T = { 255 255 255 }
+		}
+	}
+
+	bitmapfont_override = {
+		name = "tahoma_60"
+		fontfiles = {
+			"gfx/fonts/japanese/hoi_mapfont4"
+			"gfx/fonts/japanese/hoi_mapfont4_0"
+			"gfx/fonts/japanese/hoi_mapfont4_1"
+			"gfx/fonts/japanese/hoi_mapfont4_2"
+			"gfx/fonts/japanese/hoi_mapfont4_3"
+			"gfx/fonts/japanese/hoi_mapfont4_4"
+		}
+		languages = { "l_japanese" "l_english" }
+	}
+
+}

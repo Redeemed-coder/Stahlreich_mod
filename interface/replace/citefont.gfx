@@ -1,0 +1,14 @@
+bitmapfonts = {
+
+ 	bitmapfont = {
+		name = "victory_point_font" 
+		fontfiles = { 
+			"gfx/fonts/japanese/aldrich_22_outline"
+		}
+		color = 0xffb2c9c2
+	}
+	
+
+}
+
+
