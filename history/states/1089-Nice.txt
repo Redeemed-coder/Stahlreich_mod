@@ -1,0 +1,40 @@
+state = {
+	id = 1089
+	name = "STATE_1089"
+
+	state_category = town
+
+	manpower = 292958
+
+	history = {
+
+		owner = ITA
+		add_core_of = ITA
+		add_claim_by = FRA
+
+		victory_points = {
+			9909 5 # Nice
+		}
+
+		buildings = {
+			infrastructure = 2
+
+			9909 = {
+				naval_base = 2
+			}	
+
+			# Tignes Dam
+			#9745 = { dam = 1 }
+
+		}
+
+	}
+
+	provinces={
+		3959 9909 
+	}
+	
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}
