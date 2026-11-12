@@ -13,29 +13,18 @@ state = {
 		add_claim_by = FRA
 
 		victory_points = {
-			778 1 # Annecy
-		}
-
-		victory_points = {
-			9909 5 # Nice
+			11573 1 # Annecy
 		}
 
 		buildings = {
 			infrastructure = 2
-
-			9909 = {
-				naval_base = 2
-			}	
-
-			# Tignes Dam
-			#9745 = { dam = 1 }
 
 		}
 
 	}
 
 	provinces = {
-		778 6609 9603 9745 11573 
+		778 6609 9603 9745 11573 6784 764
 	}
 	
 	buildings_max_level_factor = 1.000

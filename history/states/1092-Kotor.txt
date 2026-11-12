@@ -1,0 +1,38 @@
+
+state={
+	id=1092
+	name="STATE_1092"
+	resources={
+		chromium=20.000
+		aluminium=70.000
+	}
+
+	history={
+		victory_points = {
+			13417 1
+		}
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+			}
+			9821 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		13417
+	}
+	manpower=22947
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=3.0 
+}
