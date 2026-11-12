@@ -1,0 +1,25 @@
+state={
+	id=1087
+	name="STATE_1087"
+	manpower =  16900
+	
+	state_category = rural
+
+	history={
+		owner = BLR
+		victory_points = {
+			6220 1
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 5
+		}
+		add_core_of = BLR
+	}
+
+	provinces={
+		3331 6220 6371 9241 
+	}
+
+	local_supplies=5.0 
+}

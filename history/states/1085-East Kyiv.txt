@@ -1,0 +1,35 @@
+state={
+	id=1085
+	name="STATE_1085"
+	manpower = 1247676
+	resources={
+		oil=8 # was: 14
+		aluminium=7 # was: 12
+	}
+	
+	state_category = city
+
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 2
+			industrial_complex = 3
+			fuel_silo = 1
+			air_base = 8
+		}
+		add_core_of = UKR
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		489 582 9491 9543 11530 11557 
+	}
+
+	local_supplies=0.0 
+}
