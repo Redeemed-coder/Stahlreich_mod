@@ -1,0 +1,26 @@
+
+state={
+	id=1098
+	name="STATE_1098"
+	manpower = 547797
+	
+	state_category = rural
+
+	history={
+		owner = SYR
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		add_core_of = SYR	
+
+	}
+
+
+	provinces={
+		 13438 13439 13435 13434 3942
+	}
+
+	local_supplies=2.0 
+}

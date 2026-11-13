@@ -1249,5 +1249,8 @@ GAL = {
 	color = rgb { 195 72 17 }
 	color_ui = rgb { 195 72 16 }	
 }
-
+UBR = {
+	color = rgb { 46 55 60 }
+	color_ui = rgb { 195 72 16 }	
+}
 

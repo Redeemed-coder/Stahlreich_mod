@@ -1,0 +1,27 @@
+
+state={
+	id=1099
+	name="STATE_1099"
+	manpower = 547797
+	
+	state_category = rural
+
+	history={
+		owner = TUR
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		add_core_of = TUR
+		add_core_of = SYR
+
+	}
+
+
+	provinces={
+		 901 13436 10882 
+	}
+
+	local_supplies=2.0 
+}
