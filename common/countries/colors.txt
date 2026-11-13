@@ -1253,4 +1253,7 @@ UBR = {
 	color = rgb { 46 55 60 }
 	color_ui = rgb { 195 72 16 }	
 }
-
+GTN = {
+	color = rgb { 226 220 157 }
+	color_ui = rgb { 195 72 16 }	
+}

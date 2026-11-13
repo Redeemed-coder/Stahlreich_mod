@@ -7,8 +7,10 @@ state = {
 	state_category = city
 
 	history = {
-		owner = UKR
+		owner = GTN
+		add_core_of = GTN
 		add_core_of = UKR
+		add_claim_by = ROM
 		victory_points = {
 			11670 10 
 		}
