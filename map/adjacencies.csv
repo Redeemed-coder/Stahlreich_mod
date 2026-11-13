@@ -250,6 +250,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10231;12995;impassable;-1;-1;-1;-1;-1;;Kokoda Track
 13401;13396;sea;436;-1;-1;-1;-1;;Aceh-Islands
 1428;13395;sea;812;-1;-1;-1;-1;;Padang-Islands
+10011;4056;impassable;;0;0;0;0;;Korea Strait
+1098;10181;sea;8822;-1;-1;-1;-1;;Borneo-Sulawesi
+10153;7413;sea;5294;-1;-1;-1;-1;;Sulawesi-Ternate
+4468;10141;sea;8898;-1;-1;-1;-1;;Papua-Ternate
+4564;7557;sea;4899;-1;-1;-1;-1;;Sulawesi-Moluccas
+10409;12386;sea;5320;-1;-1;-1;-1;;Papua-Moluccas
+12151;12206;sea;5414;-1;-1;-1;-1;;Lesser Sunda-Timor
+4211;4409;sea;5641;-1;-1;-1;-1;;Belitung-Kalimantan
 -1;-1;;-1;-1;-1;-1;-1;-1 
 #Start province ID;End province ID;Adjacency type;Through province ID;Starting X position;Starting Y position;Ending X position;Ending Y position;Adjacency rule;Comment
 
