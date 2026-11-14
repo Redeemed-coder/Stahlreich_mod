@@ -1,7 +1,4 @@
-﻿
-capital = 64
-
-oob = "GER_1936"
+﻿capital = 64
 
 set_research_slots = 5
 set_stability = 0.5
@@ -24,11 +21,4 @@ set_popularities = {
 	communism = 0
 	neutrality = 100
 }
-create_country_leader = {
-	name = "ルートヴィヒ・ベック"
-	desc = "POLITICS_Ludwig_Beck_DESC"
-	picture = "Portrait_Germany_Ludwig_Beck.dds"
-	expire = "1962.12.1"
-	ideology = despotism
-	traits = {  }
-}
+recruit_character = GER_ludwig_beck

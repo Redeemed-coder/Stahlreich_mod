@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_ludwig_beck"
+		texturefile = "gfx/leaders/GER/GER_ludwig_beck.png"
+	}
+	spriteType = {
+		name = "GFX_ENG_harold_macmillan"
+		texturefile = "gfx/leaders/ENG/ENG_harold_macmillan.png"
+	}
+
+}
+
