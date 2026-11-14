@@ -1,0 +1,32 @@
+state = {
+	id = 604
+	name = "STATE_604"
+	manpower = 1196100
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+
+		# 1950年代後半設立のゴルムド（7940）を有効にする場合は先頭の # を外してください
+		#victory_points = {
+		#	7940 10
+		#}
+
+		victory_points = {
+			8018 1
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+	}
+
+	provinces = {
+		4914 4964 7940 8018 8037 12899 
+	}
+
+	local_supplies = 1.0
+}

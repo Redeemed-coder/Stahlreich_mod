@@ -1,0 +1,31 @@
+state = {
+	id = 1043
+	name = "STATE_1043"
+	manpower = 3500
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	resources = {
+		coal = 1
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			12331 1
+		}
+	}
+
+	provinces = {
+		7048 12331
+	}
+
+	local_supplies = 0.0
+}
