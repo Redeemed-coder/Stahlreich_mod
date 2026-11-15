@@ -234,7 +234,7 @@ SAU = {
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
-	color = rgb { 105 129 99 }
+	color = rgb { 98 120 109 }
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
@@ -398,7 +398,7 @@ ARM = {
 }
 
 LAO = {
-	color = rgb { 26 34 55 }
+	color = rgb { 152 57 63 }
 	color_ui = rgb { 176  102  136 }
 }
 
@@ -438,12 +438,12 @@ POK = {
 }
 
 VIN = {
-	color = rgb { 235 235 135 }
+	color = rgb { 184 182 118 }
 	color_ui = rgb { 230  223  50 }
 }
 
 CAM = {
-	color = rgb { 55 70 60 }
+	color = rgb { 103 92 108 }
 	color_ui = rgb { 100  71  150 }
 }
 
