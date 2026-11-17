@@ -1,0 +1,34 @@
+state={
+	id=1117
+	name="STATE_1117"
+	manpower=160000 # 1962年時点の沿岸南部地域人口（現代設定にする場合は 650000 程度）
+	state_category=town
+
+	resources={
+		oil=2 # アシュケロン〜エイラート間の石油パイプライン・貯蔵ターミナルの戦略価値を表現
+	}
+
+	history={
+		owner = ISR # 1948年以前なら ENG、パレスチナ側なら PAL に変更
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			4088 = {
+				naval_base = 3 # アシュドッド／アシュケロン港（イスラエル南部の主要貿易・補給港）
+			}
+		}
+
+		victory_points = {
+			4088 3 # マジュダール（アシュケロン／アシュドッド）
+		}
+	}
+
+	provinces={
+		4088 13467
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

@@ -1,0 +1,32 @@
+state={
+	id=1112
+	name="STATE_1112"
+	manpower=45000
+	state_category=pastoral
+
+	resources={
+		steel=2
+		chromium=4 # リン鉱石・カリウム等の鉱物資源をHoI4の資源で代替表現
+	}
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			13450 3 # アカバ / エイラート（戦略的港湾都市）
+		}
+	}
+
+	provinces={
+		1015 13450 13453
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

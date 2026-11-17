@@ -1,0 +1,36 @@
+state={
+	id=1115
+	name="STATE_1115"
+	manpower=220000 # 1962年時点のヘブロン県・周辺地域の人口（現代なら 780000 程度）
+	state_category=town
+
+	resources={
+		steel=1 # 石材（エルサレム・ストーン）や軽工業・ガラス工芸等の工業基盤を代替表現
+	}
+
+	history={
+		owner = JOR # 1962年はヨルダン領（現代・パレスチナ自治政府なら PAL、占領下なら ISR）
+		add_core_of = JOR
+		add_core_of = PAL
+		add_claim_by = ISR
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1086 = {
+				bunker = 1 # ユダヤ山地の丘陵地形と市街地による防衛ボーナス表現
+			}
+		}
+
+		victory_points = {
+			1086 5 # ヘブロン市（西岸南部最大の都市・聖地）
+		}
+	}
+
+	provinces={
+		1086 13456
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}
+

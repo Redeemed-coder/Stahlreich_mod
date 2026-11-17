@@ -1,0 +1,32 @@
+state={
+	id=1114
+	name="STATE_1114"
+	manpower=380000 # 1962年時点の人口（現代設定にする場合は 2100000 程度）
+	state_category=town
+
+	history={
+		owner = EGY # 1962年はエジプト軍政下（現代・パレスチナ自治政府なら PAL）
+		add_core_of = PAL
+		add_claim_by = ISR
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13455 = {
+				naval_base = 2     # ガザ港
+				bunker = 1         # 密集市街地による防衛ボーナス表現
+				coastal_bunker = 1 # 沿岸防衛陣地
+			}
+		}
+
+		victory_points = {
+			13455 5 # ガザ市
+		}
+	}
+
+	provinces={
+		13455
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

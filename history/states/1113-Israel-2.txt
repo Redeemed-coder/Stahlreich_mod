@@ -1,0 +1,35 @@
+state={
+	id=1113
+	name="STATE_1113"
+	manpower=180000
+	state_category=rural
+
+	resources={
+		chromium=6 # リン鉱石・臭素・死海周辺の化学鉱物資源の代替
+		oil=2      # ゾハール等の小規模ガス・油田を表現
+	}
+
+	history={
+		owner = ISR # 1948年以前なら ENG、パレスチナ側なら PAL に変更
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2 # ネゲヴ砂漠内の空軍基地群（ハツェリム、ネバティム等）
+			# nuclear_reactor = 1 # ディモナ原子炉を再現したい場合はコメントアウトを解除
+		}
+
+		victory_points = {
+			13454 5 # ベエルシェバ（ネゲヴの中心都市・交通の要衝）
+		}
+	}
+
+	provinces={
+		7176 11970 13452 13454
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}
+

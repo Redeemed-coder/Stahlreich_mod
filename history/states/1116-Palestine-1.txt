@@ -1,0 +1,36 @@
+state={
+	id=1116
+	name="STATE_1116"
+	manpower=480000 # 1962年時点の西岸中北部人口（現代設定にする場合は 1800000 程度）
+	state_category=large_town
+
+	resources={
+		steel=2 # ナブルス周辺の石鹸・オリーブ加工・建材・軽工業基盤を代替表現
+	}
+
+	history={
+		owner = JOR # 1962年はヨルダン領（現代・パレスチナ自治政府なら PAL、占領下なら ISR）
+		add_core_of = JOR
+		add_core_of = PAL
+		add_claim_by = ISR
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7107 = {
+				bunker = 1 # サマリア山地の丘陵地形による防衛ボーナス
+			}
+		}
+
+		victory_points = {
+			7107 5  # ナブルス（西岸北部の中心都市・交通の要衝）
+			13458 3 # ラマッラー（エルサレム北郊の行政・経済拠点）
+		}
+	}
+
+	provinces={
+		7107 13458 13459 13460 13461
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

@@ -1,0 +1,35 @@
+state={
+	id=1119
+	name="STATE_1119"
+	manpower=140000 # 1962年時点の西部ガリラヤ・アクレ〜ナハリヤ周辺人口（現代設定にする場合は 450000 程度）
+	state_category=town
+
+	resources={
+		steel=3 # アクレ製鉄所（イスラエル・スチール・ミルズ）や金属加工・化学工場を表現
+	}
+
+	history={
+		owner = ISR # 1948年以前なら ENG、パレスチナ側なら PAL に変更
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			13466 = {
+				naval_base = 2     # アクレ港（歴史的港湾・沿岸補給拠点）
+				coastal_bunker = 2 # 伝統的な城壁都市と沿岸防衛ラインの再現
+			}
+		}
+
+		victory_points = {
+			13466 3 # アクレ（アッコ：西部ガリラヤの中心都市・歴史的要塞港）
+		}
+	}
+
+	provinces={
+		13466
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

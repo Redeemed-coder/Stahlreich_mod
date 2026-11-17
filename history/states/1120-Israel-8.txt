@@ -1,0 +1,39 @@
+state={
+	id=1120
+	name="STATE_1120"
+	manpower=320000 # 1962年時点のハイファ都市圏人口（現代設定にする場合は 850000 程度）
+	state_category=large_city
+
+	resources={
+		steel=6    # 造船・重機械・化学工業・鉄鋼加工の集積地を表現
+		chromium=2 # 化学・石油精製関連の工業資源を代替表現
+	}
+
+	history={
+		owner = ISR # 1948年以前なら ENG、パレスチナ側なら PAL に変更
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2        # イスラエル造船所・海軍基地の工業力を再現
+			synthetic_refinery = 1 # ハイファ石油精製所（バザン・グループ）の再現
+			13463 = {
+				naval_base = 6     # ハイファ港（東地中海有数の大型深水港・軍港）
+				coastal_bunker = 2 # カルメル山を背にした要塞化軍港の防衛力
+			}
+		}
+
+		victory_points = {
+			13463 10 # ハイファ市（イスラエル第3の都市・最大の港湾工業都市）
+		}
+	}
+
+	provinces={
+		13463
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

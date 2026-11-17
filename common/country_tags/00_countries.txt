@@ -276,6 +276,7 @@ KOS	= "countries/Kosovo.txt"
 UBR = "countries/United Baltic Republic.txt"
 GTN = "countries/Transnistria.txt"
 SNS = "countries/North Syria.txt"
+PSA = "countries/Protectorate of South Arabia.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"

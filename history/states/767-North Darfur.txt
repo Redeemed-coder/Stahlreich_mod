@@ -8,7 +8,7 @@ state = {
 	
 	history = {
 
-		owner = ENG
+		owner = SUD
 		add_core_of = SUD
 		
 		buildings = {

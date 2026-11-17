@@ -1,0 +1,34 @@
+state={
+	id=1121
+	name="STATE_1121"
+	manpower=165000 # 1962年時点の下部ガリラヤ・ナザレ都市圏人口（現代設定にする場合は 550000 程度）
+	state_category=town
+
+	resources={
+		steel=1 # ナツェラト・イリット（現ノフ・ハガリル）の繊維・食品・軽工業基盤を代替表現
+	}
+
+	history={
+		owner = ISR # 1948年以前なら ENG、パレスチナ側なら PAL に変更
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13465 = {
+				bunker = 1 # ナザレ丘陵・タボル山周辺の地形による防衛ボーナス
+			}
+		}
+
+		victory_points = {
+			13465 5 # ナザレ（キリスト教の聖地・下部ガリラヤ最大の中心都市）
+		}
+	}
+
+	provinces={
+		13465
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}
