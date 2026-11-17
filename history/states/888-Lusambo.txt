@@ -2,42 +2,29 @@ state = {
 	id = 888
 	name = "STATE_888"
 	manpower = 885237
-	state_category = pastoral 
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 
 	resources = {
 		coal = 2
 	}
 
 	history = {
-
-		owner = GER
-
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_state_loyal_to_free_congo_modifier
-			}
-		}
+		owner = PKG
+		add_core_of = COG
 
 		victory_points = {
-			2024 1 # Bakwanga
+			2024 1
 		}
 
 		buildings = {
 			infrastructure = 1
 		}
-
-		add_core_of = COG
-
 	}
 
 	provinces = {
-		1731 1929 2024 4128 7716 8016 9986 10858 
+		1731 1929 2024 4128 7716 8016 9986 10858
 	}
 
-	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

@@ -1,28 +1,16 @@
 state = {
 	id = 768
-	name = "STATE_768" # Rwanda
-	
-	state_category = pastoral
+	name = "STATE_768"
 	manpower = 1716564
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 
 	resources = {
 		tungsten = 3
 	}
 
 	history = {
-
-		owner = GER
-
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_rwandan_separatism_modifier
-			}	
-		}
-
+		owner = PKG
 		add_core_of = RWA
 
 		victory_points = {
@@ -32,13 +20,11 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-
 	}
 
 	provinces = {
 		9962 13364
 	}
 
-	buildings_max_level_factor = 1.000
-	local_supplies = 1.0 
+	local_supplies = 1.0
 }

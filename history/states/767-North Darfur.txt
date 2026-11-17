@@ -4,7 +4,6 @@ state = {
 	manpower = 8143
 	
 	state_category = wasteland
-	force_link_ownership_to = 551 # Kharthoum
 	
 	history = {
 

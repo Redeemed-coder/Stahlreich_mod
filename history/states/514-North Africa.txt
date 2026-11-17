@@ -4,11 +4,10 @@ state = {
 	manpower = 207733
 	
 	state_category = wasteland
-	force_link_ownership_to = 513 # Tlemcen
 
 	history = {
 
-		owner = FRA
+		owner = ALG
 		add_core_of = ALG
 
 		buildings = {

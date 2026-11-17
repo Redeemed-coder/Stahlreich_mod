@@ -4,11 +4,11 @@ state = {
 	manpower = 1456356
 	
 	state_category = wasteland
-	force_link_ownership_to = 781 # Niger
 
 	history = {
 
-		owner = FRA
+		owner = AIR
+		add_core_of = AIR
 		add_core_of = NGR
 
 	}

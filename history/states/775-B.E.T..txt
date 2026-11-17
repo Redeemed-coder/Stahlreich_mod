@@ -4,11 +4,10 @@ state = {
 	manpower = 18744
 	
 	state_category = wasteland
-	force_link_ownership_to = 774 # Chad
 
 	history = {
 
-		owner = FRA
+		owner = CHA
 		add_core_of = CHA
 
 		buildings = {

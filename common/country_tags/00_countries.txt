@@ -277,6 +277,10 @@ UBR = "countries/United Baltic Republic.txt"
 GTN = "countries/Transnistria.txt"
 SNS = "countries/North Syria.txt"
 PSA = "countries/Protectorate of South Arabia.txt"
+PKG = "countries/Congo Protectorate.txt"
+AIR = "countries/Sultanate of Air.txt"
+FFR = "countries/Free France.txt"
+PMD = "countries/Madagascar Protectorate.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"

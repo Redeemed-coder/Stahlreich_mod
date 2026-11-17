@@ -4,7 +4,6 @@ state = {
 	manpower = 18539
 	
 	state_category = wasteland
-	force_link_ownership_to = 456 # Aswan
 
 	history = {
 
