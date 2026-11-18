@@ -404,7 +404,7 @@ TUN = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
+	color = rgb { 55 105 57 }
 	color_ui = rgb { 200 180 90 }
 }
 
