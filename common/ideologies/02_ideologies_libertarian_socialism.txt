@@ -1,0 +1,53 @@
+ideologies = {
+	libertarian_socialism = { #自由社会主義
+		types = {
+			libertarian_socialism_ideology = { #デフォルト（自由社会主義）
+				can_be_randomly_selected = yes
+			}
+			libertarian_socialism_eurocommunism_ideology = { #ユーロ・コミュニズム
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_anarcho_communism_ideology = { #アナルコ・コミュニズム
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_syndicalism_ideology = { #サンディカリスム
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_christian_socialism_ideology = { #キリスト教社会主義
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_datong_socialism_ideology = { #大同社会主義
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_utopian_socialism_ideology = { #空想的社会主義
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_labor_zionism_ideology = { #労働シオニズム
+				can_be_randomly_selected = no
+			}
+			libertarian_socialism_gaitanism_ideology = { #ガイタン主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 143 43 50 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 25.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 20.0
+		}
+
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+}

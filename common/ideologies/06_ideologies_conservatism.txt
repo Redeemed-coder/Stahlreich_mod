@@ -1,0 +1,74 @@
+ideologies = {
+	conservatism = { #保守主義
+		types = {
+			conservatism_ideology = { #デフォルト（保守主義）
+				can_be_randomly_selected = yes
+			}
+			conservatism_social_conservatism_ideology = { #社会保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_paternalistic_conservatism_ideology = { #父権的保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_agrarianism_ideology = { #農本主義
+				can_be_randomly_selected = no
+			}
+			conservatism_christian_conservatism_ideology = { #キリスト教保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_sharia_democracy_ideology = { #シャリーア民主主義
+				can_be_randomly_selected = no
+			}
+			conservatism_populist_conservatism_ideology = { #ポピュリスト保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_constitutional_minponshugi_ideology = { #憲政民本主義
+				can_be_randomly_selected = no
+			}
+			conservatism_liberal_corporatism_ideology = { #リベラル・コーポラティズム
+				can_be_randomly_selected = no
+			}
+			conservatism_oligarchic_conservatism_ideology = { #寡頭的保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_free_market_conservatism_ideology = { #自由市場保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_fusionism_ideology = { #融合主義
+				can_be_randomly_selected = no
+			}
+			conservatism_traditional_conservatism_ideology = { #伝統的保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_neoconservatism_ideology = { #新保守主義
+				can_be_randomly_selected = no
+			}
+			conservatism_tridemism_ideology = { #三民主義
+				can_be_randomly_selected = no
+			}
+			conservatism_right_wing_kemalism_ideology = { #右翼ケマル主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 26 26 101 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
+		}
+
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+}

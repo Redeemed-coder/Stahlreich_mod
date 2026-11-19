@@ -1,0 +1,77 @@
+ideologies = {
+	fascism = { #ファシズム
+		types = {
+			fascism_ideology = { #デフォルト（ファシズム）
+				can_be_randomly_selected = yes
+			}
+			fascism_state_corporatism_ideology = { #国家コーポラティズム
+				can_be_randomly_selected = no
+			}
+			fascism_revolutionary_nationalism_ideology = { #革命的民族主義
+				can_be_randomly_selected = no
+			}
+			fascism_state_directed_corporatocracy_ideology = { #国家統制企業支配
+				can_be_randomly_selected = no
+			}
+			fascism_fascist_populism_ideology = { #ファシスト・ポピュリズム
+				can_be_randomly_selected = no
+			}
+			fascism_clerical_fascism_ideology = { #教権的ファシズム
+				can_be_randomly_selected = no
+			}
+			fascism_national_syndicalism_ideology = { #国家サンディカリスム
+				can_be_randomly_selected = no
+			}
+			fascism_proletarian_nationalism_ideology = { #プロレタリア民族主義
+				can_be_randomly_selected = no
+			}
+			fascism_falangism_ideology = { #ファランヘ主義
+				can_be_randomly_selected = no
+			}
+			fascism_fascist_mysticism_ideology = { #ファシスト神秘主義
+				can_be_randomly_selected = no
+			}
+			fascism_sansepolcrismo_ideology = { #サンセポルクロ主義
+				can_be_randomly_selected = no
+			}
+			fascism_neofascism_ideology = { #ネオファシズム
+				can_be_randomly_selected = no
+			}
+			fascism_integralism_ideology = { #統合主義
+				can_be_randomly_selected = no
+			}
+			fascism_neosocialism_ideology = { #新社会主義
+				can_be_randomly_selected = no
+			}
+			fascism_conservative_revolution_ideology = { #革命的保守主義
+				can_be_randomly_selected = no
+			}
+			fascism_revolutionary_zionism_ideology = { #革命的シオニズム
+				can_be_randomly_selected = no
+			}
+			fascism_reform_bureaucracy_ideology = { #革新官僚支配
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 110 45 35 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+}

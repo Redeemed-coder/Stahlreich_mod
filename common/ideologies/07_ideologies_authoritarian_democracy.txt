@@ -1,0 +1,95 @@
+ideologies = {
+	authoritarian_democracy = { #権威民主主義
+		types = {
+			authoritarian_democracy_ideology = { #デフォルト（権威民主主義）
+				can_be_randomly_selected = yes
+			}
+			authoritarian_democracy_anocracy_ideology = { #アノクラシー
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_oligarchy_ideology = { #寡頭制
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_national_conservatism_ideology = { #国民保守主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_social_nationalism_ideology = { #社会民族主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_right_wing_populism_ideology = { #右翼ポピュリズム
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_paternalistic_developmentalism_ideology = { #父権的開発主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_hegemonic_party_system_ideology = { #ヘゲモニー政党制
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_semi_constitutional_monarchy_ideology = { #半立憲君主制
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_left_wing_corporatism_ideology = { #左翼コーポラティズム
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_herrenvolk_democracy_ideology = { #ヘレンフォルク民主主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_national_democracy_ideology = { #国民民主主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_realpolitik_ideology = { #レアルポリティーク
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_solidarism_ideology = { #連帯主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_provisional_government_ideology = { #臨時政府
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_transitional_democracy_ideology = { #過渡期民主主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_military_administration_ideology = { #軍事行政
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_poujadism_ideology = { #プジャード主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_dixiecrat_ideology = { #ディキシークラット
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_kemalism_ideology = { #ケマル主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_right_wing_tridemism_ideology = { #右翼三民主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_sovereign_democracy_ideology = { #主権民主主義
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_paternalistic_corporatism_ideology = { #父権的企業主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 111 111 111 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

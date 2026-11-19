@@ -1,0 +1,74 @@
+ideologies = {
+	progressivism = { #進歩主義
+		types = {
+			progressivism_ideology = { #デフォルト（進歩主義）
+				can_be_randomly_selected = yes
+			}
+			progressivism_social_democracy_ideology = { #社会民主主義
+				can_be_randomly_selected = no
+			}
+			progressivism_democratic_socialism_ideology = { #民主社会主義
+				can_be_randomly_selected = no
+			}
+			progressivism_social_reformism_ideology = { #社会改良主義
+				can_be_randomly_selected = no
+			}
+			progressivism_social_patriotism_ideology = { #社会愛国主義
+				can_be_randomly_selected = no
+			}
+			progressivism_neocorporatism_ideology = { #ネオコーポラティズム
+				can_be_randomly_selected = no
+			}
+			progressivism_left_wing_populism_ideology = { #左翼ポピュリズム
+				can_be_randomly_selected = no
+			}
+			progressivism_left_wing_agrarianism_ideology = { #左翼農本主義
+				can_be_randomly_selected = no
+			}
+			progressivism_popular_front_ideology = { #人民戦線
+				can_be_randomly_selected = no
+			}
+			progressivism_social_radicalism_ideology = { #社会急進主義
+				can_be_randomly_selected = no
+			}
+			progressivism_christian_progressivism_ideology = { #キリスト教進歩主義
+				can_be_randomly_selected = no
+			}
+			progressivism_west_coast_liberalism_ideology = { #西海岸自由主義
+				can_be_randomly_selected = no
+			}
+			progressivism_east_coast_liberalism_ideology = { #東海岸自由主義
+				can_be_randomly_selected = no
+			}
+			progressivism_left_wing_kemalism_ideology = { #左翼ケマル主義
+				can_be_randomly_selected = no
+			}
+			progressivism_left_wing_tridemism_ideology = { #左翼三民主義
+				can_be_randomly_selected = no
+			}
+			progressivism_militant_democracy_ideology = { #戦闘的民主主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 154 43 77 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 25.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 20.0
+		}
+
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+}

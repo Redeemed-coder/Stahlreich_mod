@@ -1,0 +1,738 @@
+defined_text = {
+	name = GetSubideologyName
+
+	text = {
+		trigger = { has_country_leader_ideology = communism_subtype }
+		localization_key = communism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = bolshevism }
+		localization_key = bolshevism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = marxism_leninism }
+		localization_key = marxism_leninism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = maoism }
+		localization_key = maoism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = bukharinism }
+		localization_key = bukharinism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = juche }
+		localization_key = juche
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_communism }
+		localization_key = national_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = stratocratic_communism }
+		localization_key = stratocratic_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocratic_communism }
+		localization_key = securocratic_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = primitive_communism }
+		localization_key = primitive_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism }
+		localization_key = jacobinism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = posadism }
+		localization_key = posadism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_ideology }
+		localization_key = radical_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_social_republicanism_ideology }
+		localization_key = radical_socialism_social_republicanism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_trotskyism_ideology }
+		localization_key = radical_socialism_trotskyism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_left_communism_ideology }
+		localization_key = radical_socialism_left_communism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_left_wing_nationalism_ideology }
+		localization_key = radical_socialism_left_wing_nationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_pan_arabism_ideology }
+		localization_key = radical_socialism_pan_arabism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_pan_africanism_ideology }
+		localization_key = radical_socialism_pan_africanism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_african_socialism_ideology }
+		localization_key = radical_socialism_african_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_market_socialism_ideology }
+		localization_key = radical_socialism_market_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_revolutionary_front_ideology }
+		localization_key = radical_socialism_revolutionary_front_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_self_managed_socialism_ideology }
+		localization_key = radical_socialism_self_managed_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_islamic_socialism_ideology }
+		localization_key = radical_socialism_islamic_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_buddhist_socialism_ideology }
+		localization_key = radical_socialism_buddhist_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_revolutionary_gaitanism_ideology }
+		localization_key = radical_socialism_revolutionary_gaitanism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_revolutionary_peronism_ideology }
+		localization_key = radical_socialism_revolutionary_peronism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_socialism_guevarism_ideology }
+		localization_key = radical_socialism_guevarism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_ideology }
+		localization_key = libertarian_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_eurocommunism_ideology }
+		localization_key = libertarian_socialism_eurocommunism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_anarcho_communism_ideology }
+		localization_key = libertarian_socialism_anarcho_communism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_syndicalism_ideology }
+		localization_key = libertarian_socialism_syndicalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_christian_socialism_ideology }
+		localization_key = libertarian_socialism_christian_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_datong_socialism_ideology }
+		localization_key = libertarian_socialism_datong_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_utopian_socialism_ideology }
+		localization_key = libertarian_socialism_utopian_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_labor_zionism_ideology }
+		localization_key = libertarian_socialism_labor_zionism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_gaitanism_ideology }
+		localization_key = libertarian_socialism_gaitanism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_ideology }
+		localization_key = progressivism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_democracy_ideology }
+		localization_key = progressivism_social_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_democratic_socialism_ideology }
+		localization_key = progressivism_democratic_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_reformism_ideology }
+		localization_key = progressivism_social_reformism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_patriotism_ideology }
+		localization_key = progressivism_social_patriotism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_neocorporatism_ideology }
+		localization_key = progressivism_neocorporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_left_wing_populism_ideology }
+		localization_key = progressivism_left_wing_populism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_left_wing_agrarianism_ideology }
+		localization_key = progressivism_left_wing_agrarianism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_popular_front_ideology }
+		localization_key = progressivism_popular_front_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_radicalism_ideology }
+		localization_key = progressivism_social_radicalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_christian_progressivism_ideology }
+		localization_key = progressivism_christian_progressivism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_west_coast_liberalism_ideology }
+		localization_key = progressivism_west_coast_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_east_coast_liberalism_ideology }
+		localization_key = progressivism_east_coast_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_left_wing_kemalism_ideology }
+		localization_key = progressivism_left_wing_kemalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_left_wing_tridemism_ideology }
+		localization_key = progressivism_left_wing_tridemism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_militant_democracy_ideology }
+		localization_key = progressivism_militant_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_ideology }
+		localization_key = liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_classical_liberalism_ideology }
+		localization_key = liberalism_classical_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_social_liberalism_ideology }
+		localization_key = liberalism_social_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_national_liberalism_ideology }
+		localization_key = liberalism_national_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_neoliberalism_ideology }
+		localization_key = liberalism_neoliberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_centrism_ideology }
+		localization_key = liberalism_centrism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_libertarianism_ideology }
+		localization_key = liberalism_libertarianism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_anarcho_capitalism_ideology }
+		localization_key = liberalism_anarcho_capitalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_market_liberalism_ideology }
+		localization_key = liberalism_market_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_liberal_populism_ideology }
+		localization_key = liberalism_liberal_populism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_liberal_agrarianism_ideology }
+		localization_key = liberalism_liberal_agrarianism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_liberal_radicalism_ideology }
+		localization_key = liberalism_liberal_radicalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_christian_liberalism_ideology }
+		localization_key = liberalism_christian_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_islamic_liberalism_ideology }
+		localization_key = liberalism_islamic_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_ordoliberalism_ideology }
+		localization_key = liberalism_ordoliberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_cooperativism_ideology }
+		localization_key = liberalism_cooperativism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_corporatocracy_liberalism_ideology }
+		localization_key = liberalism_corporatocracy_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_ideology }
+		localization_key = liberal_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_progressive_conservatism_ideology }
+		localization_key = liberal_conservatism_progressive_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_constitutional_liberalism_ideology }
+		localization_key = liberal_conservatism_constitutional_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_christian_democracy_ideology }
+		localization_key = liberal_conservatism_christian_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_big_tent_ideology }
+		localization_key = liberal_conservatism_big_tent_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_liberal_technocracy_ideology }
+		localization_key = liberal_conservatism_liberal_technocracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_oligarchic_liberalism_ideology }
+		localization_key = liberal_conservatism_oligarchic_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_rockefeller_conservatism_ideology }
+		localization_key = liberal_conservatism_rockefeller_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_ideology }
+		localization_key = conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_social_conservatism_ideology }
+		localization_key = conservatism_social_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_paternalistic_conservatism_ideology }
+		localization_key = conservatism_paternalistic_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_agrarianism_ideology }
+		localization_key = conservatism_agrarianism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_christian_conservatism_ideology }
+		localization_key = conservatism_christian_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_sharia_democracy_ideology }
+		localization_key = conservatism_sharia_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_populist_conservatism_ideology }
+		localization_key = conservatism_populist_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_constitutional_minponshugi_ideology }
+		localization_key = conservatism_constitutional_minponshugi_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_liberal_corporatism_ideology }
+		localization_key = conservatism_liberal_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_oligarchic_conservatism_ideology }
+		localization_key = conservatism_oligarchic_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_free_market_conservatism_ideology }
+		localization_key = conservatism_free_market_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_fusionism_ideology }
+		localization_key = conservatism_fusionism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_traditional_conservatism_ideology }
+		localization_key = conservatism_traditional_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_neoconservatism_ideology }
+		localization_key = conservatism_neoconservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_tridemism_ideology }
+		localization_key = conservatism_tridemism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_right_wing_kemalism_ideology }
+		localization_key = conservatism_right_wing_kemalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_ideology }
+		localization_key = authoritarian_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_anocracy_ideology }
+		localization_key = authoritarian_democracy_anocracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_oligarchy_ideology }
+		localization_key = authoritarian_democracy_oligarchy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_national_conservatism_ideology }
+		localization_key = authoritarian_democracy_national_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_social_nationalism_ideology }
+		localization_key = authoritarian_democracy_social_nationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_right_wing_populism_ideology }
+		localization_key = authoritarian_democracy_right_wing_populism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_paternalistic_developmentalism_ideology }
+		localization_key = authoritarian_democracy_paternalistic_developmentalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_hegemonic_party_system_ideology }
+		localization_key = authoritarian_democracy_hegemonic_party_system_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_semi_constitutional_monarchy_ideology }
+		localization_key = authoritarian_democracy_semi_constitutional_monarchy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_left_wing_corporatism_ideology }
+		localization_key = authoritarian_democracy_left_wing_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_herrenvolk_democracy_ideology }
+		localization_key = authoritarian_democracy_herrenvolk_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_national_democracy_ideology }
+		localization_key = authoritarian_democracy_national_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_realpolitik_ideology }
+		localization_key = authoritarian_democracy_realpolitik_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_solidarism_ideology }
+		localization_key = authoritarian_democracy_solidarism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_provisional_government_ideology }
+		localization_key = authoritarian_democracy_provisional_government_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_transitional_democracy_ideology }
+		localization_key = authoritarian_democracy_transitional_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_military_administration_ideology }
+		localization_key = authoritarian_democracy_military_administration_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_poujadism_ideology }
+		localization_key = authoritarian_democracy_poujadism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_dixiecrat_ideology }
+		localization_key = authoritarian_democracy_dixiecrat_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_kemalism_ideology }
+		localization_key = authoritarian_democracy_kemalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_right_wing_tridemism_ideology }
+		localization_key = authoritarian_democracy_right_wing_tridemism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_sovereign_democracy_ideology }
+		localization_key = authoritarian_democracy_sovereign_democracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy_paternalistic_corporatism_ideology }
+		localization_key = authoritarian_democracy_paternalistic_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_ideology }
+		localization_key = despotism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_absolute_monarchy_ideology }
+		localization_key = despotism_absolute_monarchy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_military_junta_ideology }
+		localization_key = despotism_military_junta_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_civilian_dictatorship_ideology }
+		localization_key = despotism_civilian_dictatorship_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_theocracy_ideology }
+		localization_key = despotism_theocracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_papacy_ideology }
+		localization_key = despotism_papacy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_warlordism_ideology }
+		localization_key = despotism_warlordism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_colonial_government_ideology }
+		localization_key = despotism_colonial_government_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_personalistic_dictatorship_ideology }
+		localization_key = despotism_personalistic_dictatorship_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_managerial_state_ideology }
+		localization_key = despotism_managerial_state_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_technocratic_corporatism_ideology }
+		localization_key = despotism_technocratic_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_nominal_anarchism_ideology }
+		localization_key = despotism_nominal_anarchism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_developmental_dictatorship_ideology }
+		localization_key = despotism_developmental_dictatorship_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_interim_regime_ideology }
+		localization_key = despotism_interim_regime_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_partisan_movement_ideology }
+		localization_key = despotism_partisan_movement_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_aristocratic_conservatism_ideology }
+		localization_key = despotism_aristocratic_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_sham_constitutionalism_ideology }
+		localization_key = despotism_sham_constitutionalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_corporatocracy_ideology }
+		localization_key = despotism_corporatocracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_mafia_state_ideology }
+		localization_key = despotism_mafia_state_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_military_oligarchy_ideology }
+		localization_key = despotism_military_oligarchy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_oligarchic_legalism_ideology }
+		localization_key = despotism_oligarchic_legalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_national_catholicism_ideology }
+		localization_key = despotism_national_catholicism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_eurasianism_ideology }
+		localization_key = despotism_eurasianism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_chiang_kai_shek_thought_ideology }
+		localization_key = despotism_chiang_kai_shek_thought_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_radical_kemalism_ideology }
+		localization_key = despotism_radical_kemalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_neo_baathism_ideology }
+		localization_key = despotism_neo_baathism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_ideology }
+		localization_key = fascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_state_corporatism_ideology }
+		localization_key = fascism_state_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_revolutionary_nationalism_ideology }
+		localization_key = fascism_revolutionary_nationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_state_directed_corporatocracy_ideology }
+		localization_key = fascism_state_directed_corporatocracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_fascist_populism_ideology }
+		localization_key = fascism_fascist_populism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_clerical_fascism_ideology }
+		localization_key = fascism_clerical_fascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_national_syndicalism_ideology }
+		localization_key = fascism_national_syndicalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_proletarian_nationalism_ideology }
+		localization_key = fascism_proletarian_nationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_falangism_ideology }
+		localization_key = fascism_falangism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_fascist_mysticism_ideology }
+		localization_key = fascism_fascist_mysticism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_sansepolcrismo_ideology }
+		localization_key = fascism_sansepolcrismo_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_neofascism_ideology }
+		localization_key = fascism_neofascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_integralism_ideology }
+		localization_key = fascism_integralism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_neosocialism_ideology }
+		localization_key = fascism_neosocialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_conservative_revolution_ideology }
+		localization_key = fascism_conservative_revolution_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_revolutionary_zionism_ideology }
+		localization_key = fascism_revolutionary_zionism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascism_reform_bureaucracy_ideology }
+		localization_key = fascism_reform_bureaucracy_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_ideology }
+		localization_key = national_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_esoteric_national_socialism_ideology }
+		localization_key = national_socialism_esoteric_national_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_revolutionary_national_socialism_ideology }
+		localization_key = national_socialism_revolutionary_national_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_ultradoctrinaire_nazism_ideology }
+		localization_key = national_socialism_ultradoctrinaire_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_indigenized_national_socialism_ideology }
+		localization_key = national_socialism_indigenized_national_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_technocratic_nazism_ideology }
+		localization_key = national_socialism_technocratic_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_stratocratic_nazism_ideology }
+		localization_key = national_socialism_stratocratic_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_agrarian_nazism_ideology }
+		localization_key = national_socialism_agrarian_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_securocratic_nazism_ideology }
+		localization_key = national_socialism_securocratic_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_spartan_nazism_ideology }
+		localization_key = national_socialism_spartan_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_palingenetic_nazism_ideology }
+		localization_key = national_socialism_palingenetic_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_national_bolshevism_ideology }
+		localization_key = national_socialism_national_bolshevism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_ideology }
+		localization_key = ultranationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_ultramilitarism_ideology }
+		localization_key = ultranationalism_ultramilitarism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_stratocratic_corporatism_ideology }
+		localization_key = ultranationalism_stratocratic_corporatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_fundamentalism_ideology }
+		localization_key = ultranationalism_fundamentalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_reactionary_nationalism_ideology }
+		localization_key = ultranationalism_reactionary_nationalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_securocratic_state_ideology }
+		localization_key = ultranationalism_securocratic_state_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_neo_isolationism_ideology }
+		localization_key = ultranationalism_neo_isolationism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_national_revanchism_ideology }
+		localization_key = ultranationalism_national_revanchism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_neopaganism_ideology }
+		localization_key = ultranationalism_neopaganism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_paleo_revivalism_ideology }
+		localization_key = ultranationalism_paleo_revivalism_ideology
+	}
+
+
+	# どれにも当てはまらない場合の保険（大枠のイデオロギー名をそのまま出す）
+	text = {
+		localization_key = "[?current_party_ideology_group.GetName]"
+	}
+}

@@ -1,0 +1,56 @@
+ideologies = {
+	ultranationalism = { #超国粋主義
+		types = {
+			ultranationalism_ideology = { #デフォルト（超国粋主義）
+				can_be_randomly_selected = yes
+			}
+			ultranationalism_ultramilitarism_ideology = { #超軍国主義
+				can_be_randomly_selected = no
+			}
+			ultranationalism_stratocratic_corporatism_ideology = { #軍政コーポラティズム
+				can_be_randomly_selected = no
+			}
+			ultranationalism_fundamentalism_ideology = { #原理主義
+				can_be_randomly_selected = no
+			}
+			ultranationalism_reactionary_nationalism_ideology = { #反動的国粋主義
+				can_be_randomly_selected = no
+			}
+			ultranationalism_securocratic_state_ideology = { #防諜国家
+				can_be_randomly_selected = no
+			}
+			ultranationalism_neo_isolationism_ideology = { #新鎖国体制
+				can_be_randomly_selected = no
+			}
+			ultranationalism_national_revanchism_ideology = { #国家復讐主義
+				can_be_randomly_selected = no
+			}
+			ultranationalism_neopaganism_ideology = { #新異教主義
+				can_be_randomly_selected = no
+			}
+			ultranationalism_paleo_revivalism_ideology = { #古代回帰主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 25 25 25 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+		}
+
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+}

@@ -1,0 +1,77 @@
+ideologies = {
+	liberalism = { #自由主義
+		types = {
+			liberalism_ideology = { #デフォルト（自由主義）
+				can_be_randomly_selected = yes
+			}
+			liberalism_classical_liberalism_ideology = { #古典的自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_social_liberalism_ideology = { #社会自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_national_liberalism_ideology = { #国家自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_neoliberalism_ideology = { #新自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_centrism_ideology = { #中道主義
+				can_be_randomly_selected = no
+			}
+			liberalism_libertarianism_ideology = { #リバタリアニズム
+				can_be_randomly_selected = no
+			}
+			liberalism_anarcho_capitalism_ideology = { #アナルコ・キャピタリズム
+				can_be_randomly_selected = no
+			}
+			liberalism_market_liberalism_ideology = { #市場自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_liberal_populism_ideology = { #リベラル・ポピュリズム
+				can_be_randomly_selected = no
+			}
+			liberalism_liberal_agrarianism_ideology = { #自由農本主義
+				can_be_randomly_selected = no
+			}
+			liberalism_liberal_radicalism_ideology = { #自由急進主義
+				can_be_randomly_selected = no
+			}
+			liberalism_christian_liberalism_ideology = { #キリスト教自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_islamic_liberalism_ideology = { #イスラム自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_ordoliberalism_ideology = { #オルド自由主義
+				can_be_randomly_selected = no
+			}
+			liberalism_cooperativism_ideology = { #協同主義
+				can_be_randomly_selected = no
+			}
+			liberalism_corporatocracy_liberalism_ideology = { #企業支配自由主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 98 111 157 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 25.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 20.0
+		}
+
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+}

@@ -1,0 +1,50 @@
+ideologies = {
+	liberal_conservatism = { #自由保守主義
+		types = {
+			liberal_conservatism_ideology = { #デフォルト（自由保守主義）
+				can_be_randomly_selected = yes
+			}
+			liberal_conservatism_progressive_conservatism_ideology = { #進歩的保守主義
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_constitutional_liberalism_ideology = { #立憲自由主義
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_christian_democracy_ideology = { #キリスト教民主主義
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_big_tent_ideology = { #包括政党
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_liberal_technocracy_ideology = { #リベラル・テクノクラシー
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_oligarchic_liberalism_ideology = { #寡頭的自由主義
+				can_be_randomly_selected = no
+			}
+			liberal_conservatism_rockefeller_conservatism_ideology = { #ロックフェラー保守主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 47 54 127 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
+		}
+
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+}

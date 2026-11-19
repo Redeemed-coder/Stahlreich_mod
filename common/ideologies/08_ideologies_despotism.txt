@@ -1,0 +1,104 @@
+ideologies = {
+	despotism = { #専制主義
+		types = {
+			despotism_ideology = { #デフォルト（専制主義）
+				can_be_randomly_selected = yes
+			}
+			despotism_absolute_monarchy_ideology = { #絶対君主制
+				can_be_randomly_selected = no
+			}
+			despotism_military_junta_ideology = { #軍事政権
+				can_be_randomly_selected = no
+			}
+			despotism_civilian_dictatorship_ideology = { #文民独裁
+				can_be_randomly_selected = no
+			}
+			despotism_theocracy_ideology = { #神権制
+				can_be_randomly_selected = no
+			}
+			despotism_papacy_ideology = { #教皇制
+				can_be_randomly_selected = no
+			}
+			despotism_warlordism_ideology = { #軍閥政権
+				can_be_randomly_selected = no
+			}
+			despotism_colonial_government_ideology = { #植民地政府
+				can_be_randomly_selected = no
+			}
+			despotism_personalistic_dictatorship_ideology = { #個人独裁
+				can_be_randomly_selected = no
+			}
+			despotism_managerial_state_ideology = { #管理国家
+				can_be_randomly_selected = no
+			}
+			despotism_technocratic_corporatism_ideology = { #テクノクラート・コーポラティズム
+				can_be_randomly_selected = no
+			}
+			despotism_nominal_anarchism_ideology = { #有名無実アナーキズム
+				can_be_randomly_selected = no
+			}
+			despotism_developmental_dictatorship_ideology = { #開発独裁
+				can_be_randomly_selected = no
+			}
+			despotism_interim_regime_ideology = { #暫定政権
+				can_be_randomly_selected = no
+			}
+			despotism_partisan_movement_ideology = { #パルチザン運動
+				can_be_randomly_selected = no
+			}
+			despotism_aristocratic_conservatism_ideology = { #貴族的保守主義
+				can_be_randomly_selected = no
+			}
+			despotism_sham_constitutionalism_ideology = { #外見的立憲主義
+				can_be_randomly_selected = no
+			}
+			despotism_corporatocracy_ideology = { #企業支配体制
+				can_be_randomly_selected = no
+			}
+			despotism_mafia_state_ideology = { #マフィア国家
+				can_be_randomly_selected = no
+			}
+			despotism_military_oligarchy_ideology = { #軍事寡頭制
+				can_be_randomly_selected = no
+			}
+			despotism_oligarchic_legalism_ideology = { #寡頭的法治主義
+				can_be_randomly_selected = no
+			}
+			despotism_national_catholicism_ideology = { #国家カトリック主義
+				can_be_randomly_selected = no
+			}
+			despotism_eurasianism_ideology = { #ユーラシア主義
+				can_be_randomly_selected = no
+			}
+			despotism_chiang_kai_shek_thought_ideology = { #蒋介石思想
+				can_be_randomly_selected = no
+			}
+			despotism_radical_kemalism_ideology = { #急進ケマル主義
+				can_be_randomly_selected = no
+			}
+			despotism_neo_baathism_ideology = { #新バアス主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 55 55 55 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

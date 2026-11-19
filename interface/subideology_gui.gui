@@ -1,0 +1,38 @@
+guiTypes = {
+	# 外交画面用のオーバーレイ
+	containerWindowType = {
+		name = "diplomacy_subideology_container"
+		position = { x = 258 y = 130 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "subideology"
+			position = { x = 5 y = 15 }
+			font = "hoi_18mbs"
+			text = "[?country_leader.GetIdeologyGroup]"
+			maxWidth = 245
+			maxHeight = 20
+			alwaystransparent = yes
+		}
+	}
+
+	# 自国の政治画面用のオーバーレイ
+	containerWindowType = {
+		name = "politics_subideology_container"
+		position = { x = 90 y = 270 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "subideology"
+			position = { x = 7 y = 43 }
+			font = "hoi_18mbs"
+			text = "[?country_leader.GetIdeologyGroup]"
+			maxWidth = 155
+			maxHeight = 32
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
+}

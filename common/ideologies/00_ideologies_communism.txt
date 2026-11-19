@@ -1,0 +1,62 @@
+ideologies = {
+	communism = { #共産主義
+		types = {
+			communism_ideology = { #デフォルト（共産主義）
+				can_be_randomly_selected = yes
+			}
+			communism_bolshevism_ideology = { #ボリシェヴィズム
+				can_be_randomly_selected = no
+			}
+			communism_marxism_leninism_ideology = { #マルクス＝レーニン主義
+				can_be_randomly_selected = no
+			}
+			communism_maoism_ideology = { #毛沢東思想
+				can_be_randomly_selected = no
+			}
+			communism_bukharinism_ideology = { #ブハーリン主義
+				can_be_randomly_selected = no
+			}
+			communism_juche_ideology = { #主体思想
+				can_be_randomly_selected = no
+			}
+			communism_national_communism_ideology = { #民族共産主義
+				can_be_randomly_selected = no
+			}
+			communism_stratocratic_communism_ideology = { #軍政共産主義
+				can_be_randomly_selected = no
+			}
+			communism_securocratic_communism_ideology = { #防諜共産主義
+				can_be_randomly_selected = no
+			}
+			communism_primitive_communism_ideology = { #原始共産主義
+				can_be_randomly_selected = no
+			}
+			communism_jacobinism_ideology = { #ジャコバン主義
+				can_be_randomly_selected = no
+			}
+			communism_posadism_ideology = { #ポサダス主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 80 20 20 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_communist = yes
+		can_be_boosted = no
+	}
+}

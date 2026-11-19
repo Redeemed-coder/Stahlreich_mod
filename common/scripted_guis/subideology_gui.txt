@@ -1,0 +1,23 @@
+scripted_gui = {
+	# 外交画面（他国クリック時）のサブイデオロギー表示
+	diplomacy_subideology_window = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "diplomacy_subideology_container"
+
+		visible = {
+			always = yes
+		}
+	}
+
+	# 自国の政治画面のサブイデオロギー表示
+	politics_subideology_window = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "politics_subideology_container"
+
+		visible = {
+			always = yes
+		}
+	}
+}

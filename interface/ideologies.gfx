@@ -1,0 +1,67 @@
+spriteTypes = {
+	# ==========================================
+	# 1. 大枠イデオロギー（12種類）の基本アイコン
+	# ==========================================
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism/communism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_radical_socialism_group"
+		texturefile = "gfx/interface/ideologies/radical_socialism/radical_socialism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_libertarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/libertarian_socialism/libertarian_socialism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism/progressivism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism/liberalism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_conservatism_group"
+		texturefile = "gfx/interface/ideologies/liberal_conservatism/liberal_conservatism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism/conservatism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy/authoritarian_democracy_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism/despotism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism/fascism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_socialism_group"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/ultranationalism/ultranationalism_group.png"
+	}
+
+	# 未定義・エラー防止用アイコン
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.png"
+	}
+
+	# ==========================================
+	# 2. サブイデオロギー専用アイコン（増やすときはここに追記）
+	# ==========================================
+	spriteType = {
+		name = "GFX_ideology_despotism_military_oligarchy_ideology"
+		texturefile = "gfx/interface/ideologies/despotism/military_oligarchy.png"
+	}
+}

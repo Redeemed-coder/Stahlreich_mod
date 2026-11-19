@@ -1,0 +1,74 @@
+ideologies = {
+	radical_socialism = { #急進社会主義
+		types = {
+			radical_socialism_ideology = { #デフォルト（急進社会主義）
+				can_be_randomly_selected = yes
+			}
+			radical_socialism_social_republicanism_ideology = { #社会共和主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_trotskyism_ideology = { #トロツキー主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_left_communism_ideology = { #左翼共産主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_left_wing_nationalism_ideology = { #左翼ナショナリズム
+				can_be_randomly_selected = no
+			}
+			radical_socialism_pan_arabism_ideology = { #汎アラブ主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_pan_africanism_ideology = { #汎アフリカ主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_african_socialism_ideology = { #アフリカ社会主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_market_socialism_ideology = { #市場社会主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_revolutionary_front_ideology = { #革命戦線
+				can_be_randomly_selected = no
+			}
+			radical_socialism_self_managed_socialism_ideology = { #自主管理社会主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_islamic_socialism_ideology = { #イスラム社会主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_buddhist_socialism_ideology = { #仏教社会主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_revolutionary_gaitanism_ideology = { #革命的ガイタン主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_revolutionary_peronism_ideology = { #革命的ペロン主義
+				can_be_randomly_selected = no
+			}
+			radical_socialism_guevarism_ideology = { #ゲバラ主義
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 123 23 23 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
+		}
+
+		ai_communist = yes
+		can_be_boosted = no
+	}
+}

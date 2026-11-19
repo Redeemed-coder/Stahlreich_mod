@@ -1,0 +1,62 @@
+ideologies = {
+	national_socialism = { #国家社会主義
+		types = {
+			national_socialism_ideology = { #デフォルト（国家社会主義）
+				can_be_randomly_selected = yes
+			}
+			national_socialism_esoteric_national_socialism_ideology = { #異端的国家社会主義
+				can_be_randomly_selected = no
+			}
+			national_socialism_revolutionary_national_socialism_ideology = { #革命的国家社会主義
+				can_be_randomly_selected = no
+			}
+			national_socialism_ultradoctrinaire_nazism_ideology = { #超教義的ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_indigenized_national_socialism_ideology = { #土着化国家社会主義
+				can_be_randomly_selected = no
+			}
+			national_socialism_technocratic_nazism_ideology = { #テクノクラート・ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_stratocratic_nazism_ideology = { #軍政ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_agrarian_nazism_ideology = { #農耕ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_securocratic_nazism_ideology = { #防諜ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_spartan_nazism_ideology = { #スパルタ的ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_palingenetic_nazism_ideology = { #パリンジェネティック・ナチズム
+				can_be_randomly_selected = no
+			}
+			national_socialism_national_bolshevism_ideology = { #国家ボリシェヴィズム
+				can_be_randomly_selected = no
+			}
+		}
+
+		color = { 60 43 40 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+		}
+
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+}
